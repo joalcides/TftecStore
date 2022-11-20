@@ -1,0 +1,14 @@
+﻿@model HomeViewModel
+
+<partial name="_Carousel" />
+
+<h2>Quer Garantir o LOOK da TFTEC ???</h2>
+<h4>Produtos em estoque! </h4>
+
+
+<div class="row">
+    @foreach (var produto in Model.ProdutosEstoque)
+    {
+        <partial name="_ProdutoResumo" for="@produto" />
+    }
+</div>

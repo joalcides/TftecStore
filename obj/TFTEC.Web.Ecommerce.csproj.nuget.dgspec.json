@@ -1,0 +1,124 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ProjetoTFTEC\\Ecommerce\\TFTEC.Web.Ecommerce\\TFTEC.Web.Ecommerce.csproj": {}
+  },
+  "projects": {
+    "C:\\ProjetoTFTEC\\Ecommerce\\TFTEC.Web.Ecommerce\\TFTEC.Web.Ecommerce.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjetoTFTEC\\Ecommerce\\TFTEC.Web.Ecommerce\\TFTEC.Web.Ecommerce.csproj",
+        "projectName": "TFTEC.Web.Ecommerce",
+        "projectPath": "C:\\ProjetoTFTEC\\Ecommerce\\TFTEC.Web.Ecommerce\\TFTEC.Web.Ecommerce.csproj",
+        "packagesPath": "C:\\Users\\guilherme.campos\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjetoTFTEC\\Ecommerce\\TFTEC.Web.Ecommerce\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\guilherme.campos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Extensions.AspNetCore.Configuration.Secrets": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
+            "Azure.Security.KeyVault.Secrets": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.14.0, )"
+            },
+            "Azure.Storage.Files.Shares": {
+              "target": "Package",
+              "version": "[12.1.0, )"
+            },
+            "Azure.Storage.Queues": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.Extensions.Azure": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "ReflectionIT.Mvc.Paging": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
